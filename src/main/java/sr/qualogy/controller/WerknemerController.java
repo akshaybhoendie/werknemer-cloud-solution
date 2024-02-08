@@ -1,12 +1,8 @@
 package sr.qualogy.controller;
 
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.Persistence;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
-import sr.qualogy.configuration.JPAConfiguration;
 import sr.qualogy.entity.Werknemer;
 import sr.qualogy.service.WerknemerService;
 
